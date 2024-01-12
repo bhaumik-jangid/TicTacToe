@@ -4,6 +4,7 @@ let newGame = document.querySelector(".new-game");
 let playerO = true;
 let score1 = 0;
 let score2 = 0;
+confirm("Welcome to Tic Tac Toe game\nPlease enter your player's name in the next prompt. If you prefer not to enter a name, you can skip this step.");
 let player1 = prompt("Enter Player 1 Name : ");
 let player2 = prompt("Enter Player 2 Name : ");
 
